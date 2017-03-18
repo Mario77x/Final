@@ -1,0 +1,95 @@
+#content {
+	font-family: "Trebuchet MS", Sans-serif;
+	color: #5d5d5d;
+	height: 100%;
+	font-size: 25px;
+	background-color: rgba(241, 241, 241, 0.63);
+	margin: 0px;
+	padding: 0px;
+}
+
+#navbar {
+	height: 90px;
+	font-weight: bold;
+	color: rgb(0, 19, 88);
+	opacity: 1;
+	text-decoration: none;
+	color: #5d5d5d;
+	background-color: transparent;
+	z-index: 1;
+	border-bottom-width: 10px;
+	border-bottom-style: groove;
+}
+
+#home {
+	margin: 40px;
+}
+
+#blog #gallery #contact {
+	text-align: right;
+	padding: 50px;
+}
+
+#header {
+	display: block;
+	height: 100vh;
+	background-image: url("../images/Profile_3x2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: absolute;
+	background-attachment: fixed;
+	z-index: -1;
+	opacity: 0.9;
+	border-bottom-width: 10px;
+	border-bottom-style: groove;
+}
+
+.title {
+	margin: 0px;
+	font-family: "Myriad Pro", serif;
+	opacity: 1;
+	z-index: 1;
+	color: white;
+	display: block;
+	padding-top: 250px;
+	padding-left: 40px;
+	text-align: left;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-shadow: 0px 0px 8px rgb(0, 19, 88);
+}
+
+.title2 {
+	margin: 0px;
+	font-family: "Myriad Pro", serif;
+	opacity: 1;
+	z-index: 1;
+	color: white;
+	display: block;
+	padding-top: 10px;
+	padding-left: 40px;
+	text-align: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 0px 0px 8px rgb(0, 19, 88);
+}
+
+#intro {
+	padding: 40px;
+	font-size: 1em;
+	font-style: italic;
+}
+
+#text {
+	font-size: 0.8em;
+	padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) {
+}
