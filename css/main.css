@@ -1,6 +1,11 @@
-#content {
+/*--------MAIN CSS FILE MANAGING GENERAL STYLE + IMAGE BLOCK + NAVIGATION + RESPONSIVENESS--*/
+
+
+/*--------GENERAL STYLE--*/
+
+body {
 	font-family: "Trebuchet MS", Sans-serif;
-	color: grey;
+	color: #d2d2d2;
 	height: 100%;
 	width: 100%;
 	font-size: 25px;
@@ -8,7 +13,10 @@
 	opacity: 0.9;
 	margin: 0px;
 	padding: 0px;
+	border: none;
 }
+
+/*--------NAVIGATION BAR--*/
 
 .navbar-nav {
     margin-top: 15px;
@@ -46,19 +54,24 @@
 	padding-right: 20px;
 	margin-bottom: 0px;
 	position: fixed;
-	font-weight: bold;
-	border: none;
-	background-color: transparent;
-
+    border: none;
+    background-color: transparent;
 }
 
 #menu a {
 	font-size: 0.9em;
+	font-weight: bold;
 	padding-right: 10px;
 	color: white;
-	text-shadow: 0px 0px 1px white;
 	text-decoration: none;
 }
+
+#menu a:hover {
+	color: grey;
+}
+
+
+/*--------IMAGE BLOCK--*/
 
 #header {
 	padding-top: 300px;
@@ -75,6 +88,9 @@
     border-bottom-style: groove;
 }
 
+
+/*--------NAME & PROFESSION--*/
+
 .title {
 	margin: 0px;
 	font-family: "Myriad Pro", serif;
@@ -86,7 +102,7 @@
 	text-align: left;
 	font-size: 2.5em;
 	font-weight: bold;
-	text-shadow: 0px 0px 2px rgb(0, 0, 0);
+	text-shadow: 0px 0px 3px white;
 }
 
 .title2 {
@@ -101,8 +117,11 @@
 	text-align: left;
 	font-size: 1.2em;
 	font-weight: bold;
-	text-shadow: 0px 0px 2px rgb(0, 0, 0);
+	text-shadow: 0px 0px 2px white;
 }
+
+
+/*--------PERSONAL INTRO--*/
 
 #intro {
 	display: block;
@@ -112,11 +131,16 @@
 	text-shadow: 0px 0px 1px grey;
 }
 
+
+/*--------LONG CV--*/
+
 #text {
 	font-size: 0.8em;
 	padding: 40px;
-
 }
+
+
+/*--------RESPONSIVENESS--*/
 
 @media screen and (max-width: 480px) {
 	.navbar-brand {
@@ -128,12 +152,22 @@
 	.navbar-toggle {
 		right: 0;
 		margin-right: 20px;
-		margin-top: 4px;
-		padding-top: 1px
-		border: hidden;
-		text-shadow: none;
-		outline: none;
+		margin-top: 5px;
+		padding-top: 10x;
+		border: none;
 	}
+
+	.collapse {
+		display: block;
+		margin-right: 20px;
+		padding-right: 20px;
+		font-size: 0.8em;
+		color: white;
+		text-shadow: none;
+		text-decoration: none;
+		background-color: black;
+	}
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -146,12 +180,21 @@
 	.navbar-toggle {
 		right: 0;
 		margin-right: 20px;
-		margin-top: 4px;
-		padding-top: 1px
-		border: hidden;
-		text-shadow: none;
-		outline: none;
+		margin-top: 5px;
+		padding-top: 10px;
+		border: none;
 	}
+
+	.collapse {
+		display: block;
+		float: right;
+		font-size: 0.8em;
+		color: white;
+		text-shadow: none;
+		text-decoration: none;
+		background-color: black;
+	}
+
 }
 
 @media screen and (min-width: 768px) {
