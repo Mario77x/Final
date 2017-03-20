@@ -18,13 +18,6 @@ body {
 
 /*--------NAVIGATION BAR--*/
 
-.navbar-nav {
-    margin-top: 15px;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding: 0px;
-}
-
 .navbar-inverse {
     background-color: black;
     position: fixed;
@@ -43,19 +36,13 @@ body {
 	padding-left: 40px;
 	margin-bottom: 0px;
 	position: fixed;
-
 }
 
-#navbar-toggle {
-	right: 0;
-	margin-top: 5px;
-	padding-top: 0px;
-	margin-right: 20px;
-	padding-right: 20px;
-	margin-bottom: 0px;
-	position: fixed;
-    border: none;
-    background-color: transparent;
+.navbar-nav {
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
 }
 
 #menu a {
@@ -68,6 +55,18 @@ body {
 
 #menu a:hover {
 	color: grey;
+}
+
+#navbar-toggle {
+	right: 0;
+	margin-top: 5px;
+	padding-top: 0px;
+	margin-right: 20px;
+	padding-right: 20px;
+	margin-bottom: 0px;
+	position: fixed;
+    border: none;
+    background-color: black;
 }
 
 
@@ -150,6 +149,8 @@ body {
 	}
 
 	.navbar-toggle {
+		display: block;
+		background-color: black;
 		right: 0;
 		margin-right: 20px;
 		margin-top: 5px;
@@ -157,17 +158,14 @@ body {
 		border: none;
 	}
 
-	.collapse {
-		display: block;
-		margin-right: 20px;
-		padding-right: 20px;
-		font-size: 0.8em;
-		color: white;
-		text-shadow: none;
-		text-decoration: none;
+	.navbar-collapse ul {
 		background-color: black;
+		border: none;
 	}
-
+	
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    	border: hidden;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -178,23 +176,23 @@ body {
 	}
 
 	.navbar-toggle {
+		display: block;
+		background-color: black;
 		right: 0;
 		margin-right: 20px;
-		margin-top: 5px;
+		margin-top: 4px;
 		padding-top: 10px;
 		border: none;
 	}
 
-	.collapse {
-		display: block;
-		float: right;
-		font-size: 0.8em;
-		color: white;
-		text-shadow: none;
-		text-decoration: none;
+	.navbar-collapse ul {
 		background-color: black;
+		border: none;
 	}
 
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    	border: hidden;
+   	}
 }
 
 @media screen and (min-width: 768px) {
