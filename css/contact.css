@@ -1,0 +1,73 @@
+/*--------CSS FOR EXPERIENCE PAGE--*/
+
+
+/*--------IMAGE BLOCK--*/
+
+#header {
+	padding-top: 300px;
+	height: 90vh;
+	width: auto;
+	top: 0;
+	background-image: url("../images/contact_3x2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+    border-bottom-width: 5px;
+    border-bottom-color: grey;
+    border-bottom-style: groove;
+}
+
+
+/*--------NAME/PROFESSION PAGE TITLE--*/
+
+.title {
+	margin: 0px;
+	font-family: "Myriad Pro", serif;
+	opacity: 1;
+	z-index: 1;
+	color: white;
+	display: block;
+	padding-left: 40px;
+	text-align: left;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-shadow: 0px 0px 4px black;
+}
+
+.title2 {
+	margin: 0px;
+	font-family: "Myriad Pro", serif;
+	opacity: 1;
+	z-index: 1;
+	color: white;
+	display: block;
+	padding-top: 10px;
+	padding-left: 40px;
+	text-align: left;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px black;
+}
+
+.contact {
+	display: block;
+	color: white;
+	text-shadow: 0px 0px 1px black;
+	margin: 40px;
+	font-size: 0.8em;
+}
+
+.contact a {
+	color: black;
+	text-decoration: none;
+
+}
+
+.comtact a:hover {
+	color: grey;
+}
+
+.social {
+	margin-left: 40px;
+}
