@@ -1,6 +1,6 @@
 #content {
 	font-family: "Trebuchet MS", Sans-serif;
-	color: white;
+	color: grey;
 	height: 100%;
 	width: 100%;
 	font-size: 25px;
@@ -10,6 +10,13 @@
 	padding: 0px;
 }
 
+.navbar-nav {
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
 .navbar-inverse {
     background-color: black;
     position: fixed;
@@ -17,35 +24,39 @@
     border-bottom-color: grey;
     border-bottom-style: groove;
     width: 100%;
-    height: 70px;
-    padding-bottom: 5px;
+    height: 80px;
 }
 
-#home {
+.navbar-brand {
 	left: 0;
-	position: fixed;
 	margin-top: 5px;
-	margin-left: 30px;
-	opacity: 1;
-	z-index: 1;
-	text-shadow: 0px 0px 3px white;
+	padding-top: 0px;
+	margin-left: 50px;
+	padding-left: 40px;
+	margin-bottom: 0px;
+	position: fixed;
+
 }
 
-#menu {
+#navbar-toggle {
 	right: 0;
+	margin-top: 5px;
+	padding-top: 0px;
+	margin-right: 20px;
+	padding-right: 20px;
+	margin-bottom: 0px;
 	position: fixed;
 	font-weight: bold;
-	margin-top: 10px;
-	margin-right: 20px;
-	opacity: 1;
-	z-index: 1;
+	border: none;
+	background-color: transparent;
+
 }
 
 #menu a {
 	font-size: 0.9em;
 	padding-right: 10px;
-	color: black;
-	text-shadow: 0px 0px 2px white;
+	color: white;
+	text-shadow: 0px 0px 1px white;
 	text-decoration: none;
 }
 
@@ -108,11 +119,39 @@
 }
 
 @media screen and (max-width: 480px) {
+	.navbar-brand {
+		left: 0;
+		margin-left: 25px;
+		padding-left: 0px;
+	}
 
+	.navbar-toggle {
+		right: 0;
+		margin-right: 20px;
+		margin-top: 4px;
+		padding-top: 1px
+		border: hidden;
+		text-shadow: none;
+		outline: none;
+	}
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
+	.navbar-brand {
+		left: 0;
+		margin-left: 25px;
+		padding-left: 0px;
+	}
 
+	.navbar-toggle {
+		right: 0;
+		margin-right: 20px;
+		margin-top: 4px;
+		padding-top: 1px
+		border: hidden;
+		text-shadow: none;
+		outline: none;
+	}
 }
 
 @media screen and (min-width: 768px) {
