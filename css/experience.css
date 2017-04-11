@@ -122,6 +122,15 @@
 #accordion {
 	font-family: "Trebuchet MS", Sans-serif;
 	color: black;
-	text-decoration: none;
 	border: black;
+	background-color: grey;
+}
+
+#accordion a {
+	text-decoration: none;
+}
+
+#accordion a:hover {
+	text-decoration: none;
+	color: black;
 }

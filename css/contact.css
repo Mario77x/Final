@@ -64,10 +64,15 @@
 
 }
 
-.comtact a:hover {
-	color: grey;
+.contact a:hover {
+	color: white;
+	text-shadow: 0px 0px 1px black;
 }
 
 .social {
 	margin-left: 40px;
+}
+
+.social a {
+	text-decoration: none;
 }

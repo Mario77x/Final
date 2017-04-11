@@ -16,6 +16,7 @@ body {
 	border: none;
 }
 
+
 /*--------NAVIGATION BAR--*/
 
 .navbar-inverse {
@@ -84,7 +85,6 @@ body {
 /*--------RESPONSIVENESS--*/
 
 @media screen and (min-width: 768px) {
-
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
@@ -119,8 +119,6 @@ body {
 	}
 }
 
-
-
 @media screen and (max-width: 480px) {
 	.navbar-brand {
 		left: 0;
@@ -151,7 +149,6 @@ body {
 	   	font-weight: normal;
 	   	font-size: 0.8em;
 	}
+
 }
-
-
 
