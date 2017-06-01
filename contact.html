@@ -11,7 +11,7 @@
 	<script rel="stylesheet" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<script type="text/javascript" src="script/cookies.min.js"></script>
-	<!-- <script type="text/javascript" src="script/contactForm.js"></script>-->
+	<script type="text/javascript" src="script/contactForm.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/contact.css">
@@ -48,33 +48,65 @@
 
 	<div class="container-fluid">
 
-			<!-- NAME & PROFESSION & CONTACT INFO & SOCIAL LINKING-->			
+			<!-- PAGE TITLE & NAME -->			
 
-			<div class="row" id="header">
-				<div>
+				<div class="row" id="header">
 					<h1 class="title">Contact</h1>
 					<h2 class="title2">Mario Savi</h2>
+
+			<!-- CONTACT INFO & SOCIAL LINKING -->			
+
+					<div class="contact">
+		         		<p>Email: <a href="mailto:mariosavi@hotmail.com">mariosavi@hotmail.com</a>
+		         		<br>
+		          		Mobile: +31 (0)6 39464738
+		          		<br>
+						Amsterdam - The Netherlands</p>
+	        		</div>
+
+	        		<div class="social">
+					    <a href="https://www.facebook.com/MarioLSavi" target="_blank">
+					        <img src="images/icon_facebook.png" alt="image" width="40">
+					   	</a>
+					    <a href="https://twitter.com/mariosavi77" target="_blank">
+					       	<img src="images/icon_twitter.png" alt="image" width="40">
+					    </a>
+					    <a href="https://www.instagram.com/mario.imago/" target="_blank">
+					        <img src="images/icon_instagram.png" alt="image" width="40">
+					    </a>
+					</div>
+
 				</div>
-		       	<div class="contact">
-	         		<p>Email: <a href="mailto:mariosavi@hotmail.com">mariosavi@hotmail.com</a>
-	         		<br>
-	          		Mobile: +31 (0)6 39464738
-	          		<br>
-					Amsterdam - The Netherlands</p>
-	        	</div>
-				<div class="social">
-				    <a href="https://www.facebook.com/MarioLSavi" target="_blank">
-				        <img src="images/icon_facebook.png" alt="image" width="40">
-				   	</a>
-				    <a href="https://twitter.com/mariosavi77" target="_blank">
-				       	<img src="images/icon_twitter.png" alt="image" width="40">
-				    </a>
-				    <a href="https://www.instagram.com/mario.imago/" target="_blank">
-				        <img src="images/icon_instagram.png" alt="image" width="40">
-				    </a>
-				</div>	        
+
+
+			<!-- INTRO  -->
+
+			<div class="row" id="intro">
+				<div>
+					<p>You can also fill in the following contact form</p>
+				</div>
 			</div>
 
+
+			<!-- CONTACT FORM -->		
+
+			<div class="container" id="contactForm">
+				<form id="form">
+					<div class="row">
+						<h4>Please enter your full name</h4>
+						<input id="fullName" class="input" name="fullName" type="text" value="" style:"width:auto" size="50"/>
+					</div>
+					<div class="row">
+						<h4>Please enter your email</h4>
+						<input id="email" class="input" name="email" type="text" value="" size="50"/>
+					</div>
+					<div class="row">
+						<h4>Please enter your message</h4>
+						<textarea id="message" class="input" name="message" rows="7" cols="50"></textarea>
+					</div>
+					<input id="submit_button" type="submit" value=" Send " onclick="checkEmail()"/>
+				</form>
+			</div>
 	</div>
 
 </body>

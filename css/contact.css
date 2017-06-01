@@ -5,10 +5,10 @@
 
 #header {
 	padding-top: 300px;
-	height: 90vh;
+	height: 80vh;
 	width: auto;
 	top: 0;
-	background-image: url("../images/contact_3x2.jpg");
+	background-image: url("../images/contact_3x1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -19,7 +19,7 @@
 }
 
 
-/*--------NAME/PROFESSION PAGE TITLE--*/
+/*--------PAGE TITLE--*/
 
 .title {
 	margin: 0px;
@@ -54,7 +54,7 @@
 	display: block;
 	color: white;
 	text-shadow: 0px 0px 1px black;
-	margin: 40px;
+	margin: 20px 40px;
 	font-size: 1.9rem;
 }
 
@@ -75,4 +75,26 @@
 
 .social a {
 	text-decoration: none;
+}
+
+/*--------Div wrapper Contact Form--*/
+#contactForm {
+	width: auto;
+	text-align: center;
+	font-size: 1.8rem;
+	display: block;
+	background-color: #131313;
+	margin: 40px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#form {
+	padding-left: 20px;
+}
+
+#submit_button {
+	height: 40px;
+	font-size: 1.8rem;
+	color: black;
 }
