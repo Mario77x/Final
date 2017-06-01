@@ -51,86 +51,85 @@
 }
 
 
-/*--------Styling repos--*/
+/*--------STYLING REPOS--*/
 
+/*--------Div wrapper repos--*/
 #reposs {
 	display: block;
 	background-color: #131313;
 	margin: 40px;
 	padding: 20px;
 	border-radius: 10px;
-	opacity: 1;
-	text-shadow: 0px 0px 2px grey;
 }
 
-#repo0  {
+
+/*--------Divs for each repo--*/
+#repo0 {
 	display: block;
 	background-color: #2d2d2d;
-	margin: 5px;
+	margin: 10px;
 	border-radius: 10px;
 	border-width: 5px;
-    border-color: black;
+    border-color: grey;
 }
+
 #repo1 {
 	display: block;
 	background-color: #2d2d2d;
-	margin: 5px;
+	margin: 10px;
 	border-radius: 10px;
 	border-width: 5px;
-    border-color: black;
+    border-color: grey;
 }
 
 #repo2 {
 	display: block;
 	background-color: #2d2d2d;
-	margin: 5px;
+	margin: 10px;
 	border-radius: 10px;
 	border-width: 5px;
-    border-color: black;
+    border-color: grey;
 }
 
 #repo3 {
 	display: block;
 	background-color: #2d2d2d;
-	margin: 5px;
+	margin: 10px;
 	border-radius: 10px;
 	border-width: 5px;
-    border-color: black;
+    border-color: grey;
 }
 
 #repo4 {
 	display: block;
 	background-color: #2d2d2d;
-	margin: 5px;
+	margin: 10px;
 	border-radius: 10px;
 	border-width: 5px;
-    border-color: black;
+    border-color: grey;
 }
  
 #repo5 {
 	display: block;
 	background-color: #2d2d2d;
-	margin: 5px;
+	margin: 10px;
 	border-radius: 10px;
 	border-width: 5px;
-    border-color: black;
+    border-color: grey;
 }
 
-h4 {
+
+/*--------Contant repos--*/
+#reposs h4 {
 	font-size: 2rem;
-	font-weight: normal;
-	font-style: normal;
 }
 
-#name0 #name1 #name2 #rname3 #name4 #name5 a {
+#reposs a {
 	text-decoration: none;
+	color: white;
 }
 
-#name0 #name1 #name2 #rname3 #name4 #name5 a:hover {
-	text-decoration: underline;
-}
-
-#name0 #name1 #name2 #rname3 #name4 #name5 a:visited {
+#reposs a:hover {
 	text-decoration: none;
 	color: grey;
 }
@@ -138,5 +137,4 @@ h4 {
 #reposs p {
 	font-size: 1.5rem;
 	font-weight: normal;
-	font-style: normal;
 }
